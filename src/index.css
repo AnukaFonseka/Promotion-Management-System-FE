@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.MuiFormControl-root.MuiTextField-root.css-1b1fjlj-MuiFormControl-root-MuiTextField-root {
+    width: 100%;
+}
+
+* {
+    font-family: "Poppins", serif;
+  }
+  
+  
+  a {
+    text-decoration: none !important; /* Remove underlines globally */
+  }
