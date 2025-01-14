@@ -114,10 +114,10 @@ const Login = () => {
             Login Credentials:
           </Typography>
           <Typography variant="body1">
-            <strong>Email:</strong> john@example.com
+            <strong>Email:</strong> john
           </Typography>
           <Typography variant="body1">
-            <strong>Password:</strong> john123
+            <strong>Password:</strong> j@12345
           </Typography>
         </Box>
       </Paper>
