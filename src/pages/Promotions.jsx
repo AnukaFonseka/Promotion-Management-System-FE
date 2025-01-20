@@ -75,7 +75,7 @@ const Promotions = () => {
         {/* Search Bar */}
         <div className="relative w-full max-w-sm">
           <TextField
-            label="Search Products..."
+            label="Search Promotions..."
             variant="outlined"
             value={search}
             onChange={handleSearchChange}
