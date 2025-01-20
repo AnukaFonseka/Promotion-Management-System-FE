@@ -115,12 +115,23 @@ const AddPromotion = () => {
     }
   };
 
+    // Loading state for fetching data
+  if (isFetching) {
+    return (
+      <Box className="flex justify-center items-center min-h-screen">
+        <h1>Loading...</h1>
+     </Box>
+      );
+    }
+  
+
   return (
     <Box className="flex items-center justify-center min-h-screen bg-gradient-to-t from-scn to-prm/50">
       <Paper elevation={6} className="p-8 rounded-lg shadow-lg max-w-lg w-full">
         <h1 className="text-3xl font-bold text-prm mb-6 text-center">{promotionId ? "Edit Promotion" : "Create Promotion"}</h1>
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
           <TextField
+            name="name"
             label="Promotion Name"
             fullWidth
             variant="outlined"
